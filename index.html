@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./src/css/styles.css">
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/877/877669.png" type="image/x-icon">
     <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 
@@ -79,16 +80,18 @@
         <div class="about">
             <div class="about__container">
                 <h2 class="about__title">Sobre Nosotros</h2>
-                <p class="about__text">En ElectroStation, impulsamos la movilidad eléctrica conectándote con las mejores estaciones de carga.
+                <p class="about__text">En ElectroStation, impulsamos la movilidad eléctrica conectándote con las mejores
+                    estaciones de carga.
                 </p>
                 <p class="about__text">
-                    Nuestra misión es ofrecerte una experiencia rápida, segura y eficiente, para que cargar tu vehículo sea tan fácil como conducirlo.
+                    Nuestra misión es ofrecerte una experiencia rápida, segura y eficiente, para que cargar tu vehículo
+                    sea tan fácil como conducirlo.
                 </p>
                 <p class="about__text">
                     Creemos en un futuro más limpio y estamos aquí para acompañarte en cada kilómetro.
                 </p>
             </div>
-    
+
             <div class="about__img">
                 <img src="./src/images/About.png" alt="Estaciones de carga" loading="lazy">
             </div>
@@ -97,7 +100,7 @@
     <!-- End - Section About -->
 
 
-    
+
     <!-- Start - Section Products -->
     <section class="products">
         <h2 class="products__title">Servicios</h2>
@@ -119,7 +122,7 @@
                     <p class="service__title">Gestiona tus pagos de carga de manera fácil y confiable.</p>
                     <a href="#" class="button hero__button">Más información</a>
                 </div>
-            </div>            
+            </div>
         </article>
 
     </section>
@@ -129,20 +132,96 @@
 
 
     <!-- Start - Section App -->
+    <section class="container app">
+        <div class="mobile">
+            <h2 class="mobile__title">Descarga la aplicación</h2>
+            <p class="mobile__description">Con nuestra app, puedes reservar una electrolinera en cuestión de minutos,
+                además, puedes encontrar estaciones de carga cerca de ti y hacer un seguimiento de la duración de la
+                batería de tu coche en tiempo real y mucho más.</p>
+            <div class="mobile__buttons">
+                <img src="./src/images/appstore.png" alt="PlayStore" loading="lazy">
+                <img src="./src/images/googleplay.png" alt="GooglePlay" loading="lazy">
+            </div>
+        </div>
+        <div class="mobile__img">
+            <img src="./src/images/Phone.svg" alt="Carmobile" loading="lazy">
+        </div>
+    </section>
     <!-- End - Section App -->
 
 
 
     <!-- Start - Section Gallery -->
+    <section class="gallery">
+        <h3 class="gallery__title">Galería</h3>
+        <p class="gallery__description">Explora nuestra galería y descubre cómo hacemos posible tu carga rápida, segura
+            y eficiente.</p>
+
+    </section>
     <!-- End - Section Gallery -->
 
 
 
     <!-- Start - Section Contact -->
+    <section class="container contact">
+        <div class="contact__form">
+            <h2 class="contact__title">¿Tienes preguntas? Escríbenos</h2>
+            <form action="#">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="correo" placeholder="Correo" required>
+                <input type="tel" name="celular" placeholder="Celular" required>
+                <textarea name="observaciones" placeholder="Observaciones" rows="4"></textarea>
+                <label class="checkbox__label">
+                    <input type="checkbox" required>
+                    Términos y condiciones
+                </label>
+                <button type="submit" class="btn button">Enviar</button>
+            </form>
+        </div>
+
+        <div class="contact__map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7914484515727!2d-78.4919116242656!3d-0.2102860353982151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a107e1cd44b%3A0x88a284f66939ed4!2sESCUELA%20POLIT%C3%89CNICA%20NACIONAL!5e0!3m2!1ses-419!2sec!4v1748692694233!5m2!1ses-419!2sec"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
     <!-- End - Section Contact -->
 
 
+
     <!-- Start - Section Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__social">
+                <h3>Síguenos en redes</h3>
+                <div class="social__icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer__links">
+                <h3>Enlaces de interés</h3>
+                <div class="links">
+                    <a href="#">Soporte técnico</a>
+                    <a href="#">Blog de noticias</a>
+                    <a href="#">Preguntas frecuentes (FAQ)</a>
+                </div>
+            </div>
+
+            <div class="footer__contact">
+                <h3>Llámamos</h3>
+                <p class="call">(593) 995644186</p>
+                <h3>Escríbenos</h3>
+                <p class="write">electrostaion@gmail.com</p>
+            </div>
+        </div>
+
+        <hr/>
+        <p class="footer__copy">© Derechos Reservados - ByronTosh</p>
+    </footer>
     <!-- End - Section Footer -->
 
 </body>
